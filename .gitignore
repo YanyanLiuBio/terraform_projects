@@ -32,4 +32,4 @@ terraform.rc
 **/*_temp.md
 
 aws_batch/README_temp.md
-aws_batch/.terraform.lock.hcl
+
