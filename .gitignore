@@ -1,0 +1,34 @@
+old
+old/*
+
+# Local .terraform directory (contains provider binaries and modules)
+**/.terraform/*
+
+# .tfstate files (Contains sensitive data and infrastructure secrets)
+**/*.tfstate
+**/*.tfstate.*
+
+# Crash log files
+crash.log
+crash.*.log
+
+# Exclude override files (used for local testing)
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Include .terraform.lock.hcl (Recommended to keep this to lock provider versions)
+# !.terraform.lock.hcl
+
+# Exclude variable files that contain secrets
+**/*.tfvars
+**/*.tfvars.json
+
+# Ignore CLI configuration files
+.terraformrc
+terraform.rc
+
+**/*_temp.md
+
+aws_batch/README_temp.md
